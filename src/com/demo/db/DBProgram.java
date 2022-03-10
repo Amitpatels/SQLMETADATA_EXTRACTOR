@@ -15,12 +15,7 @@ import com.demo.export.ExportDBMetadata;
 
 public class DBProgram {
 
-	/*
-	 * private static final String jdbcDriver =
-	 * "com.microsoft.sqlserver.jdbc.SQLServerDriver"; private static final String
-	 * jdbcURL =
-	 * "jdbc:sqlserver://172.28.15.166;databaseName=sc_cause;user=FundabaBE;password=Fund@ba123;";
-	 */
+	
 
 	private static final String jdbcDriver = "com.mysql.cj.jdbc.Driver";
 	private static final String jdbcURL = "jdbc:mysql://localhost:3306/schooldb";
