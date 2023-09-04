@@ -18,9 +18,9 @@ public class DBProgram {
 	
 
 	private static final String jdbcDriver = "com.mysql.cj.jdbc.Driver";
-	private static final String jdbcURL = "jdbc:mysql://localhost:3306/schooldb";
-	private static final String user = "root";
-	private static final String password = "good";
+	private static final String jdbcURL = "jdbc:mysql://localhost:3306/anydbname";
+	private static final String user = "user";
+	private static final String password = "user";
 	private String dbschemaGlb ="";
 
 	Connection databaseConnection = null;
